@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <title>Portafolio Matias Retamales</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Matias.R</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#servicios" onclick="seleccionar()">SERVICIOS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/imagen_matias.png" alt="">
+            </div>
+            <h1>MATIAS RETAMALES</h1>
+            <h2>Tecnico Programador - Tecnico en Telecomunicaciones - Ingeniero en sonido</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/matias-retamales-carrera-3a19352aa/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/56946669202"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/MatiasRetamales"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Matias.</span> Tengo una fuerte pasión por el desarrollo Fullstack. He adquirido conocimientos en Python, Flask y Django, y tengo experiencia en el mantenimiento de software y hardware. Durante mis proyectos académicos y personales, he tenido la oportunidad de dirigir equipos y resolver problemas de manera efectiva.
+
+                He desarrollado una página web para una banda de música, que incluye un formulario de contacto, y una página para un local de comida rápida, también con un formulario de contacto. Estas experiencias me han permitido aplicar mis habilidades en programación y diseño web.
+                
+                He trabajado como Técnico en Computación en Deira S.A., donde mejoré la eficiencia del soporte técnico para clientes. Además, he supervisado equipos en el ámbito logístico y actualmente trabajo en seguridad, colaborando con la administración para optimizar procesos tecnologicos.
+                
+                Estoy buscando oportunidades de nivel junior en un entorno dinámico donde pueda aplicar mis habilidades y seguir aprendiendo. Me gusta enfrentar nuevos desafíos y colaborar en proyectos innovadores.
+                
+                En mi tiempo libre, disfruto explorando nuevas tecnologías y manteniéndome al día con las tendencias del desarrollo web. Estoy emocionado por lo que el futuro me depara en el campo de la programación.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha Nacimiento</strong>
+                            08-08-1994
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +56946669202
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            matiasretamalescarrera@gmail.com
+                        </li>
+                       
+                        <li>
+                            <strong>Dirección</strong>
+                            Cartagena, Chile
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- skills -->
+                <div class="col">
+                    <h3>Skills</h3>
+                    <div class="contenedor-skills">
+
+                        <div class="skill">
+                           
+                            <span>PYTHON</span>
+                        </div>
+
+                        <div class="skill">
+                           
+                            <span>HTML</span>
+                        </div>
+
+                        <div class="skill">
+                           
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="skill">
+                            
+                            <span>FLASK</span>
+                        </div>
+
+                        <div class="skill">
+                            
+                            <span>JAVASCRIPT</span>
+                        </div>
+
+                        <div class="skill">
+                           
+                            <span>REACT</span>
+                        </div>
+
+                        <div class="skill">
+
+                            <span>SQL</span>
+                        </div>
+
+                        <div class="skill">
+                           
+                            <span>GIT</span>
+
+                        </div>
+
+                        <div class="skill">
+                           
+                            <span>VSC</span>
+                        </div>
+
+                    
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="/CV/CV_Matias_Retamales.pdf" download>
+                <button class="btn-cv">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+   
+
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="/img/Captura de pantalla (9).png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>Portafolio Personal</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="/img/Captura de pantalla (5).png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>Banda musical "Omega Circus"</p>
+                        <a href="https://github.com/MatiasRetamales/Pagina-Web-Omega-Circus" target="_blank">Ver en GitHub</a>
+                 
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="/img/Captura de pantalla (2).png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>Local de comida rapida</p>
+                        <a href="https://github.com/MatiasRetamales/Mini-Restaurant-Online" target="_blank">Ver en GitHub</a>
+                    </div>
+                </div>
+               
+                
+                
+                
+                
+            </div>
+        </div>
+    </section>
+
+
+  <!-- SECCION SERVICIOS -->
+<section id="servicios" class="servicios">
+    <div class="contenido-seccion">
+        <h2>Servicios</h2>
+        <div class="galeria-servicios">
+            <div class="servicio">
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web responsivos y funcionales utilizando tecnologías modernas como HTML, CSS, y JavaScript, garantizando una experiencia de usuario fluida y atractiva en cualquier dispositivo.</p>
+            
+            </div>
+            <div class="servicio">
+                <h3>Diseño de Apps Web</h3>
+                <p>Diseño intuitivo y centrado en el usuario para aplicaciones web, enfocándonos en la usabilidad y la estética para mejorar la interacción y satisfacción del usuario.</p>
+            </div>
+            <div class="servicio">
+                <h3>Próximamente: Desarrollo de Aplicaciones</h3>
+                <p>Estamos trabajando en ofrecer servicios de desarrollo de aplicaciones móviles y de escritorio, adaptados a las necesidades del cliente.</p>
+            </div>
+            
+            <div class="servicio">
+                <h3>Análisis de Datos</h3>
+                <p>Interpretación y análisis de datos para ayudar a las empresas a tomar decisiones informadas, optimizando estrategias de marketing y mejorando la experiencia del cliente.</p>
+            </div>
+            <div class="servicio">
+                <h3>Automatización</h3>
+                <p>Implementación de soluciones de automatización para procesos empresariales, aumentando la eficiencia operativa y reduciendo errores humanos mediante el uso de herramientas y tecnologías innovadoras.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="/img/Captura de pantalla (10).png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                               Cartagena, Chile
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contactame: +569 46669202
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: matiasretamalescarrera@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/matias-retamales-carrera-3a19352aa/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/56946669202"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/MatiasRetamales"><i class="fa-brands fa-github"></i></a>
+            
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
